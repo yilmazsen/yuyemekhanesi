@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FE4E50</item>
+        <item name="colorPrimaryDark">#FE4E50</item>
+        <item name="colorAccent">#FE4E50</item>
+    </style>
+
+    <style name="listFontStyle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#cccccc</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@mipmap/mainbackground</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

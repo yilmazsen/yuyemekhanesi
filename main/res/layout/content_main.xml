@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutMode="opticalBounds"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ysen.yuyemekhanesi.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <TextView
+        android:id="@+id/baslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="GÜNÜN ÖĞLEN MENÜSÜ"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="100dp"
+        android:text="İnternet Bağlantısında Hata Mevcut..."
+        />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        style="@style/listFontStyle"
+        android:background="@android:color/transparent"
+        android:backgroundTintMode="screen" />
+
+    <TextView
+        android:id="@+id/motto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/bungee_shade"
+        android:text="AFİYET OLSUN ..."
+        android:textColor="@android:color/background_dark"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
