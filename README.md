@@ -1,4 +1,4 @@
-## yuyemekhanesi
+## YUYEMEKHANESI APP
 Yalova Üniversitesinin Yemekhanesinde çıkan günlük menülerin öğrencilere hızlı bir şekilde bilgi sunan android uygulamadır.
 
 # Amaç
